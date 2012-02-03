@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "EditorPopoverController.h"
 
 @implementation ViewController
+@synthesize emailLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,7 @@
 
 - (void)viewDidUnload
 {
+    [self setEmailLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -59,6 +62,22 @@
   } else {
       return YES;
   }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([segue isKindOfClass:[UIStoryboardPopoverSegue class]]) {
+    UIStoryboardPopoverSegue *popoverSegue = (UIStoryboardPopoverSegue*)segue;
+    UIPopoverController *popoverController = popoverSegue.popoverController;
+    EditorPopoverController *editorPopover = (EditorPopoverController*)popoverController.contentViewController;
+    
+    popoverController.delegate = self;
+    editorPopover.emailField.text = self.emailLabel.text;    
+  }
+}
+
+- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController {
+  NSString *newEmail = ((EditorPopoverController*)popoverController.contentViewController).emailField.text;
+  self.emailLabel.text = newEmail;  
 }
 
 @end

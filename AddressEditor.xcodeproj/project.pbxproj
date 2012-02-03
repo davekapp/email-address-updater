@@ -21,6 +21,8 @@
 		4E26EDC414DB98E70041DCD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA214DB98E70041DCD4 /* Foundation.framework */; };
 		4E26EDCC14DB98E70041DCD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E26EDCA14DB98E70041DCD4 /* InfoPlist.strings */; };
 		4E26EDCF14DB98E70041DCD4 /* AddressEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDCE14DB98E70041DCD4 /* AddressEditorTests.m */; };
+		4E26EDDA14DB99510041DCD4 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDD914DB99510041DCD4 /* EditorViewController.m */; };
+		4E26EDDD14DB9E7D0041DCD4 /* EditorPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDDC14DB9E7D0041DCD4 /* EditorPopoverController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,26 @@
 		4E26EDA014DB98E70041DCD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E26EDA214DB98E70041DCD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E26EDA414DB98E70041DCD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E26EDA814DB98E70041DCD4 /* AddressEditor-Info.plist */ = {isa = PBXFileReference; path = "AddressEditor-Info.plist"; sourceTree = "<group>"; };
+		4E26EDA814DB98E70041DCD4 /* AddressEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressEditor-Info.plist"; sourceTree = "<group>"; };
 		4E26EDAA14DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E26EDAC14DB98E70041DCD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E26EDAE14DB98E70041DCD4 /* AddressEditor-Prefix.pch */ = {isa = PBXFileReference; path = "AddressEditor-Prefix.pch"; sourceTree = "<group>"; };
-		4E26EDAF14DB98E70041DCD4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E26EDAE14DB98E70041DCD4 /* AddressEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddressEditor-Prefix.pch"; sourceTree = "<group>"; };
+		4E26EDAF14DB98E70041DCD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E26EDB014DB98E70041DCD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E26EDB314DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4E26EDB614DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4E26EDB814DB98E70041DCD4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E26EDB814DB98E70041DCD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E26EDB914DB98E70041DCD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E26EDC014DB98E70041DCD4 /* AddressEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E26EDC114DB98E70041DCD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E26EDC914DB98E70041DCD4 /* AddressEditorTests-Info.plist */ = {isa = PBXFileReference; path = "AddressEditorTests-Info.plist"; sourceTree = "<group>"; };
+		4E26EDC914DB98E70041DCD4 /* AddressEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressEditorTests-Info.plist"; sourceTree = "<group>"; };
 		4E26EDCB14DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E26EDCD14DB98E70041DCD4 /* AddressEditorTests.h */ = {isa = PBXFileReference; path = AddressEditorTests.h; sourceTree = "<group>"; };
+		4E26EDCD14DB98E70041DCD4 /* AddressEditorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressEditorTests.h; sourceTree = "<group>"; };
 		4E26EDCE14DB98E70041DCD4 /* AddressEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressEditorTests.m; sourceTree = "<group>"; };
+		4E26EDD814DB99510041DCD4 /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		4E26EDD914DB99510041DCD4 /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		4E26EDDB14DB9E7D0041DCD4 /* EditorPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorPopoverController.h; sourceTree = "<group>"; };
+		4E26EDDC14DB9E7D0041DCD4 /* EditorPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorPopoverController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +122,11 @@
 				4E26EDAF14DB98E70041DCD4 /* AppDelegate.h */,
 				4E26EDB014DB98E70041DCD4 /* AppDelegate.m */,
 				4E26EDB214DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard */,
+				4E26EDD814DB99510041DCD4 /* EditorViewController.h */,
+				4E26EDD914DB99510041DCD4 /* EditorViewController.m */,
 				4E26EDB514DB98E70041DCD4 /* MainStoryboard_iPad.storyboard */,
+				4E26EDDB14DB9E7D0041DCD4 /* EditorPopoverController.h */,
+				4E26EDDC14DB9E7D0041DCD4 /* EditorPopoverController.m */,
 				4E26EDB814DB98E70041DCD4 /* ViewController.h */,
 				4E26EDB914DB98E70041DCD4 /* ViewController.m */,
 				4E26EDA714DB98E70041DCD4 /* Supporting Files */,
@@ -264,6 +274,8 @@
 				4E26EDAD14DB98E70041DCD4 /* main.m in Sources */,
 				4E26EDB114DB98E70041DCD4 /* AppDelegate.m in Sources */,
 				4E26EDBA14DB98E70041DCD4 /* ViewController.m in Sources */,
+				4E26EDDA14DB99510041DCD4 /* EditorViewController.m in Sources */,
+				4E26EDDD14DB9E7D0041DCD4 /* EditorPopoverController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
