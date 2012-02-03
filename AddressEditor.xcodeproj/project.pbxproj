@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E26EDA114DB98E70041DCD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA014DB98E70041DCD4 /* UIKit.framework */; };
+		4E26EDA314DB98E70041DCD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA214DB98E70041DCD4 /* Foundation.framework */; };
+		4E26EDA514DB98E70041DCD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA414DB98E70041DCD4 /* CoreGraphics.framework */; };
+		4E26EDAB14DB98E70041DCD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E26EDA914DB98E70041DCD4 /* InfoPlist.strings */; };
+		4E26EDAD14DB98E70041DCD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDAC14DB98E70041DCD4 /* main.m */; };
+		4E26EDB114DB98E70041DCD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDB014DB98E70041DCD4 /* AppDelegate.m */; };
+		4E26EDB414DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E26EDB214DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard */; };
+		4E26EDB714DB98E70041DCD4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E26EDB514DB98E70041DCD4 /* MainStoryboard_iPad.storyboard */; };
+		4E26EDBA14DB98E70041DCD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDB914DB98E70041DCD4 /* ViewController.m */; };
+		4E26EDC214DB98E70041DCD4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDC114DB98E70041DCD4 /* SenTestingKit.framework */; };
+		4E26EDC314DB98E70041DCD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA014DB98E70041DCD4 /* UIKit.framework */; };
+		4E26EDC414DB98E70041DCD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26EDA214DB98E70041DCD4 /* Foundation.framework */; };
+		4E26EDCC14DB98E70041DCD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E26EDCA14DB98E70041DCD4 /* InfoPlist.strings */; };
+		4E26EDCF14DB98E70041DCD4 /* AddressEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E26EDCE14DB98E70041DCD4 /* AddressEditorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E26EDC514DB98E70041DCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E26ED9314DB98E70041DCD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E26ED9B14DB98E70041DCD4;
+			remoteInfo = AddressEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E26ED9C14DB98E70041DCD4 /* AddressEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E26EDA014DB98E70041DCD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E26EDA214DB98E70041DCD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E26EDA414DB98E70041DCD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E26EDA814DB98E70041DCD4 /* AddressEditor-Info.plist */ = {isa = PBXFileReference; path = "AddressEditor-Info.plist"; sourceTree = "<group>"; };
+		4E26EDAA14DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E26EDAC14DB98E70041DCD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E26EDAE14DB98E70041DCD4 /* AddressEditor-Prefix.pch */ = {isa = PBXFileReference; path = "AddressEditor-Prefix.pch"; sourceTree = "<group>"; };
+		4E26EDAF14DB98E70041DCD4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E26EDB014DB98E70041DCD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E26EDB314DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4E26EDB614DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4E26EDB814DB98E70041DCD4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E26EDB914DB98E70041DCD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E26EDC014DB98E70041DCD4 /* AddressEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E26EDC114DB98E70041DCD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E26EDC914DB98E70041DCD4 /* AddressEditorTests-Info.plist */ = {isa = PBXFileReference; path = "AddressEditorTests-Info.plist"; sourceTree = "<group>"; };
+		4E26EDCB14DB98E70041DCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E26EDCD14DB98E70041DCD4 /* AddressEditorTests.h */ = {isa = PBXFileReference; path = AddressEditorTests.h; sourceTree = "<group>"; };
+		4E26EDCE14DB98E70041DCD4 /* AddressEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressEditorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E26ED9914DB98E70041DCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDA114DB98E70041DCD4 /* UIKit.framework in Frameworks */,
+				4E26EDA314DB98E70041DCD4 /* Foundation.framework in Frameworks */,
+				4E26EDA514DB98E70041DCD4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E26EDBC14DB98E70041DCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDC214DB98E70041DCD4 /* SenTestingKit.framework in Frameworks */,
+				4E26EDC314DB98E70041DCD4 /* UIKit.framework in Frameworks */,
+				4E26EDC414DB98E70041DCD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E26ED9114DB98E70041DCD4 = {
+			isa = PBXGroup;
+			children = (
+				4E26EDA614DB98E70041DCD4 /* AddressEditor */,
+				4E26EDC714DB98E70041DCD4 /* AddressEditorTests */,
+				4E26ED9F14DB98E70041DCD4 /* Frameworks */,
+				4E26ED9D14DB98E70041DCD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E26ED9D14DB98E70041DCD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E26ED9C14DB98E70041DCD4 /* AddressEditor.app */,
+				4E26EDC014DB98E70041DCD4 /* AddressEditorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E26ED9F14DB98E70041DCD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E26EDA014DB98E70041DCD4 /* UIKit.framework */,
+				4E26EDA214DB98E70041DCD4 /* Foundation.framework */,
+				4E26EDA414DB98E70041DCD4 /* CoreGraphics.framework */,
+				4E26EDC114DB98E70041DCD4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E26EDA614DB98E70041DCD4 /* AddressEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4E26EDAF14DB98E70041DCD4 /* AppDelegate.h */,
+				4E26EDB014DB98E70041DCD4 /* AppDelegate.m */,
+				4E26EDB214DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard */,
+				4E26EDB514DB98E70041DCD4 /* MainStoryboard_iPad.storyboard */,
+				4E26EDB814DB98E70041DCD4 /* ViewController.h */,
+				4E26EDB914DB98E70041DCD4 /* ViewController.m */,
+				4E26EDA714DB98E70041DCD4 /* Supporting Files */,
+			);
+			path = AddressEditor;
+			sourceTree = "<group>";
+		};
+		4E26EDA714DB98E70041DCD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E26EDA814DB98E70041DCD4 /* AddressEditor-Info.plist */,
+				4E26EDA914DB98E70041DCD4 /* InfoPlist.strings */,
+				4E26EDAC14DB98E70041DCD4 /* main.m */,
+				4E26EDAE14DB98E70041DCD4 /* AddressEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E26EDC714DB98E70041DCD4 /* AddressEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E26EDCD14DB98E70041DCD4 /* AddressEditorTests.h */,
+				4E26EDCE14DB98E70041DCD4 /* AddressEditorTests.m */,
+				4E26EDC814DB98E70041DCD4 /* Supporting Files */,
+			);
+			path = AddressEditorTests;
+			sourceTree = "<group>";
+		};
+		4E26EDC814DB98E70041DCD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E26EDC914DB98E70041DCD4 /* AddressEditorTests-Info.plist */,
+				4E26EDCA14DB98E70041DCD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E26ED9B14DB98E70041DCD4 /* AddressEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E26EDD214DB98E70041DCD4 /* Build configuration list for PBXNativeTarget "AddressEditor" */;
+			buildPhases = (
+				4E26ED9814DB98E70041DCD4 /* Sources */,
+				4E26ED9914DB98E70041DCD4 /* Frameworks */,
+				4E26ED9A14DB98E70041DCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressEditor;
+			productName = AddressEditor;
+			productReference = 4E26ED9C14DB98E70041DCD4 /* AddressEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E26EDBF14DB98E70041DCD4 /* AddressEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E26EDD514DB98E70041DCD4 /* Build configuration list for PBXNativeTarget "AddressEditorTests" */;
+			buildPhases = (
+				4E26EDBB14DB98E70041DCD4 /* Sources */,
+				4E26EDBC14DB98E70041DCD4 /* Frameworks */,
+				4E26EDBD14DB98E70041DCD4 /* Resources */,
+				4E26EDBE14DB98E70041DCD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E26EDC614DB98E70041DCD4 /* PBXTargetDependency */,
+			);
+			name = AddressEditorTests;
+			productName = AddressEditorTests;
+			productReference = 4E26EDC014DB98E70041DCD4 /* AddressEditorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E26ED9314DB98E70041DCD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4E26ED9614DB98E70041DCD4 /* Build configuration list for PBXProject "AddressEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E26ED9114DB98E70041DCD4;
+			productRefGroup = 4E26ED9D14DB98E70041DCD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E26ED9B14DB98E70041DCD4 /* AddressEditor */,
+				4E26EDBF14DB98E70041DCD4 /* AddressEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E26ED9A14DB98E70041DCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDAB14DB98E70041DCD4 /* InfoPlist.strings in Resources */,
+				4E26EDB414DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4E26EDB714DB98E70041DCD4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E26EDBD14DB98E70041DCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDCC14DB98E70041DCD4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E26EDBE14DB98E70041DCD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E26ED9814DB98E70041DCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDAD14DB98E70041DCD4 /* main.m in Sources */,
+				4E26EDB114DB98E70041DCD4 /* AppDelegate.m in Sources */,
+				4E26EDBA14DB98E70041DCD4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E26EDBB14DB98E70041DCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26EDCF14DB98E70041DCD4 /* AddressEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E26EDC614DB98E70041DCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E26ED9B14DB98E70041DCD4 /* AddressEditor */;
+			targetProxy = 4E26EDC514DB98E70041DCD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E26EDA914DB98E70041DCD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E26EDAA14DB98E70041DCD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E26EDB214DB98E70041DCD4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E26EDB314DB98E70041DCD4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4E26EDB514DB98E70041DCD4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E26EDB614DB98E70041DCD4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4E26EDCA14DB98E70041DCD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E26EDCB14DB98E70041DCD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E26EDD014DB98E70041DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E26EDD114DB98E70041DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E26EDD314DB98E70041DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressEditor/AddressEditor-Prefix.pch";
+				INFOPLIST_FILE = "AddressEditor/AddressEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E26EDD414DB98E70041DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressEditor/AddressEditor-Prefix.pch";
+				INFOPLIST_FILE = "AddressEditor/AddressEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E26EDD614DB98E70041DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddressEditor.app/AddressEditor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressEditor/AddressEditor-Prefix.pch";
+				INFOPLIST_FILE = "AddressEditorTests/AddressEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E26EDD714DB98E70041DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddressEditor.app/AddressEditor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressEditor/AddressEditor-Prefix.pch";
+				INFOPLIST_FILE = "AddressEditorTests/AddressEditorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E26ED9614DB98E70041DCD4 /* Build configuration list for PBXProject "AddressEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E26EDD014DB98E70041DCD4 /* Debug */,
+				4E26EDD114DB98E70041DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E26EDD214DB98E70041DCD4 /* Build configuration list for PBXNativeTarget "AddressEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E26EDD314DB98E70041DCD4 /* Debug */,
+				4E26EDD414DB98E70041DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E26EDD514DB98E70041DCD4 /* Build configuration list for PBXNativeTarget "AddressEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E26EDD614DB98E70041DCD4 /* Debug */,
+				4E26EDD714DB98E70041DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E26ED9314DB98E70041DCD4 /* Project object */;
+}
